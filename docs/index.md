@@ -2,9 +2,6 @@
 
 There is text there as well
 
-|     |     |
-| --- | --- |
-|     |     |
 ``` python
 # ------------------ Constants ------------------
 e = 1.602e-19  # Elementary charge in C
@@ -25,9 +22,7 @@ $$(\omega_p = \sqrt{\frac{n_e e^2}{\varepsilon_0 m_e}} )$$
 ---
 ![alt text](images/ArgonPlasma1.png)
 Here is some additional text
+
 # Thats a heading
-
-
-> [!Thats a call out] Title
-> Contents
-[](Welcome.md)
+- [ ] this have to be done
+- [x] this is already done
