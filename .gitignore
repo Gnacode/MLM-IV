@@ -1,0 +1,42 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+*.cover
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS-specific files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# devcontainer files
+*.devcontainer/devcontainer.json
+
+# Docker-specific files
+docker-compose.override.yml
+.env
