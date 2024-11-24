@@ -1,8 +1,17 @@
----
-layout: minimal
----
-{% if page.mathjax %}
-{% include mathjax.html %}
-{% endif %}
-
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }}</title>
+  {% include mathjax.html %}
+</head>
+<body>
+  <header>
+    <h1>{{ site.title | escape }}</h1>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>
