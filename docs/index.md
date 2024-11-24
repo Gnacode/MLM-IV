@@ -1,6 +1,9 @@
-layout: default
-
+---
+title: "MLM-IV Documentation"
 mathjax: true
+---
+
+{% include mathjax.html %}
 
 [[Welcome]]
 
