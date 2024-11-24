@@ -1,3 +1,6 @@
+layout: default
+mathjax: true
+
 [[Welcome]]
 
 There is text there as well
