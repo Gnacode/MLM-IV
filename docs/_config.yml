@@ -5,5 +5,6 @@ plugins:
   - jekyll-mathjax
 
 markdown: kramdown
+usemathjax: true
 
 

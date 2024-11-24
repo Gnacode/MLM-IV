@@ -1,2 +1,3 @@
-usemathjax: true
+Title
+
 $$E=mc^2$$
