@@ -1,7 +1,12 @@
 
 [[Welcome]]
 
+
+
 There is text there as well
+----
+usemathjax: true
+----
 
 \( E = mc^2 \)
 
