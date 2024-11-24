@@ -5,7 +5,7 @@ There is text there as well
 |     |     |
 | --- | --- |
 |     |     |
-```
+``` python
 # ------------------ Constants ------------------
 
 e = 1.602e-19  # Elementary charge in C
