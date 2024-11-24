@@ -19,6 +19,11 @@ V_points = 1000
 V_range = np.linspace(V_min, V_max, V_points)
 ```
 $$(\omega_p = \sqrt{\frac{n_e e^2}{\varepsilon_0 m_e}} )$$
+
+$$
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi \xi x} \,d\xi
+$$
+
 ---
 ![alt text](images/ArgonPlasma1.png)
 Here is some additional text
@@ -26,3 +31,13 @@ Here is some additional text
 # Thats a heading
 - [ ] this have to be done
 - [x] this is already done
+
+
+**The Cauchy-Schwarz Inequality**
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+$`\sqrt{\$4}`$
+
