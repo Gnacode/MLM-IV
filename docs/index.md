@@ -1,5 +1,6 @@
 [[Welcome]]
 
+There is text there as well
 
 |     |     |
 | --- | --- |

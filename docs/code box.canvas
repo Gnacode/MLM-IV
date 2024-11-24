@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"7094c59f45e5630f","type":"text","text":"CODE BOX","x":-360,"y":-340,"width":250,"height":60,"color":"3"},
+		{"id":"f7edcd89ddca58b3","x":-297,"y":-253,"width":250,"height":60,"type":"text","text":"other box"},
+		{"id":"35f75ba42bdbfece","x":-295,"y":-60,"width":250,"height":60,"type":"text","text":"thats here"},
+		{"id":"53a9659d60d0129e","x":-295,"y":-160,"width":250,"height":60,"type":"text","text":"seen here"}
+	],
+	"edges":[
+		{"id":"65d3966fbef6ebe3","fromNode":"7094c59f45e5630f","fromSide":"right","toNode":"f7edcd89ddca58b3","toSide":"right"},
+		{"id":"7084a9b4003c645f","fromNode":"f7edcd89ddca58b3","fromSide":"left","toNode":"53a9659d60d0129e","toSide":"left"},
+		{"id":"f5da3d712b0deb0f","fromNode":"53a9659d60d0129e","fromSide":"right","toNode":"35f75ba42bdbfece","toSide":"right"}
+	]
+}
