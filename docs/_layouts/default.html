@@ -1,7 +1,6 @@
 ---
-layout: minima
+layout: minimal
 ---
-
+{% if page.mathjax %}
 {% include mathjax.html %}
-{{ content }}
-
+{% endif %}
