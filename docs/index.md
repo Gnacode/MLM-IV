@@ -3,6 +3,12 @@
 
 There is text there as well
 
+\( E = mc^2 \)
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
 ``` python
 # ------------------ Constants ------------------
 e = 1.602e-19  # Elementary charge in C
