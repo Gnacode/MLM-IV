@@ -41,3 +41,4 @@ Here is some additional text
 
 $`\sqrt{\$4}`$
 
+$`\sqrt{3}`$
