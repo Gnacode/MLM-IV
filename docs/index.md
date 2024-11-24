@@ -33,6 +33,5 @@ V_points = 1000
 
 V_range = np.linspace(V_min, V_max, V_points)
 ```
-$$
-\omega _{p} = \sqrt{\frac{n_{e}e^{2}}{\varepsilon _{0}m_{e}}}
-$$
+$$\omega _{p} = \sqrt{\frac{n_{e}e^{2}}{\varepsilon _{0}m_{e}}}$$
+![[Argon Plasma Comsol Multiphysics.canvas]]
