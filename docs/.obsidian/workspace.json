@@ -26,17 +26,14 @@
             "id": "66e8bb70b24ecfe2",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Argon Plasma Comsol Multiphysics.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -136.5,
-                  "zoom": 0
-                }
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Argon Plasma Comsol Multiphysics"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -129,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Argon Plasma Comsol Multiphysics.canvas",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Argon Plasma Comsol Multiphysics"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -148,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Argon Plasma Comsol Multiphysics.canvas",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Argon Plasma Comsol Multiphysics"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -175,10 +172,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Argon Plasma Comsol Multiphysics.canvas"
+                "file": "index.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Argon Plasma Comsol Multiphysics"
+              "title": "Outline of index"
             }
           }
         ]
@@ -200,10 +197,11 @@
   },
   "active": "66e8bb70b24ecfe2",
   "lastOpenFiles": [
+    "code box.canvas",
     "index.md",
     "Argon Plasma Comsol Multiphysics.canvas",
-    "ArgonPlasma1.png",
     "Welcome.md",
+    "ArgonPlasma1.png",
     "README.md.md"
   ]
 }
