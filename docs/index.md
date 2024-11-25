@@ -1,7 +1,6 @@
 
 ---
 title: "MLM-IV Documentation"
-mathjax: true
 
 ---
 
