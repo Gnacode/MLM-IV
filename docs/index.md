@@ -5,9 +5,9 @@ title: "MLM-IV Documentation"
 
 This is an example of inline math: $$E=mc^2$$.
 
-$$\sqrt{3x-1}+(1+x)^2$$
+$$ \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6} $$
 
-Test
+\Gamma \Delta \Omega …
 
 Here is an example of block math:
 
