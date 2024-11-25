@@ -1,6 +1,6 @@
 title: MLM-IV Documentation
 show_downloads: true
-theme: jekyll-theme-minimal
+theme: jekyll-theme-modernist
 markdown: kramdown
 plugins:
   - jekyll-mathjax
