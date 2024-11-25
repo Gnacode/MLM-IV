@@ -1,16 +1,11 @@
-Title
+# Title
 
+This is an example of inline math: $$E=mc^2$$.
 
-$$E=mc^2$$
+## Block Math
 
+Here is an example of block math:
 
-Block math:
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
-
-{::nomarkdown}  
-\begin{equation}
-(A)'_{i,j} = A_{j,i}
-\end{equation}
-{:/}  
