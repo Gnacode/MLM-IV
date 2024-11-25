@@ -5,8 +5,7 @@ theme: jekyll-theme-minimal
 # Set this to true to get LaTeX math equation support
 use_math: true
 # this setting allows you to keep pages organized in the _pages folder
-include:
-  - _pages
+
 
 # Everything below here should be left alone. Modifications may break fastpages
 future: true
@@ -21,8 +20,8 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-remote-theme
+ 
 
-remote_theme: jekyll/minima
 
 titles_from_headings:
   enabled: true
