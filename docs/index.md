@@ -1,7 +1,7 @@
 
 ---
 title: "MLM-IV Documentation"
-mathjax: true
+
 ---
 
 This is an example of inline math: $$E=mc^2$$.
