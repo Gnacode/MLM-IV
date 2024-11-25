@@ -1,5 +1,5 @@
 # Title
-
+usemathjax: true
 This is an example of inline math: $$E=mc^2$$.
 
 ## Block Math
