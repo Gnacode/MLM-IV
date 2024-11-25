@@ -1,38 +1,4 @@
 title: MLM-IV Documentation
 show_downloads: true
 theme: jekyll-theme-minimal
-
-# Set this to true to get LaTeX math equation support
-use_math: true
-# this setting allows you to keep pages organized in the _pages folder
-
-
-# Everything below here should be left alone. Modifications may break fastpages
-future: true
-
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-remote-theme
- 
-
-
-titles_from_headings:
-  enabled: true
-  strip_title: true
-  collections: true
-
-highlighter: rouge
 markdown: kramdown
-kramdown:
-  math_engine: mathjax 
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
