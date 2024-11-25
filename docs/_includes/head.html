@@ -1,7 +1,20 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
-  onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '\\(', right: '\\)', display: false}]});"></script>
-  <script>
-    console.log("head.html loaded successfully!");
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['$$', '$$']]
+      }
+    };
+    MathJax.typesetPromise();
+  });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      MathJax.typesetPromise();
+    });
   </script>
+  
