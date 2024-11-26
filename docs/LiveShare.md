@@ -9,6 +9,6 @@ permalink: /MLM-IV/LiveShare/
 
 [**INDEX**](index.md)
 
-Liveshare 
+Liveshare is an extension for VSCODE which can be activated in Github CODESPACES
 
 (tutorial for LIVESHARE WITH VSCODE AND CODESPACES WILL BE ADDED HERE)
