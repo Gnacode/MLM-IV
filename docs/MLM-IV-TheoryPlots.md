@@ -23,7 +23,7 @@ The MLM-TheoryPlots generates four sub-plots:
 
 4. IV curves where the capacitive effect, and leakage currents have been added.
 
-   <a href="images\MLM-IV-TheoryPlot.png)" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
+   <a href="images\MLM-IV-TheoryPlot.png" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
 
 ![MLM-IV-TheoryPlot](.\images\MLM-IV-TheoryPlot.png)
 
