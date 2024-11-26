@@ -16,8 +16,21 @@ Our use of the program is as a foundational algorithm used in our instrumentatio
 The MLM-TheoryPlots generates four sub-plots:
 
 1. Theoretical IV Curve with and simulated (dotted line) capacitive effect on measured current, and a simulated electron leakage current in the voltage bias range above 0 V.
+
 2. Derivative of theoretical IV Curve, and peak finding for estimation of the plasma potential Vp
+
 3. Ion Saturation current, with added overlay of simulated leakage currents (dotted lines)
+
 4. IV curves where the capacitive effect, and leakage currents have been added.
 
+   <a href="images\MLM-IV-TheoryPlot.png)" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
+
 ![MLM-IV-TheoryPlot](.\images\MLM-IV-TheoryPlot.png)
+
+We use equation 3 from Merlino 2007 to 
+
+![Equation 3 - Merlino 2007](.\images\Merlino2007-Eq3.png)
+
+We use equation 6 from Merlino 2007 to 
+
+![Equation 6 - Merlino 2007](.\images\Merlino2007-Eq6.png)

@@ -1,0 +1,3 @@
+ I_{ion sat} = I_{Bohm} = 0.6en_{i}\sqrt{\frac{kT_{e}}{m_{i}}}A_{probe}
+
+  I_{e sat} = 0.25en_{e}\sqrt{\frac{8kT_{e}}{\pi m_{e}}}A_{probe}

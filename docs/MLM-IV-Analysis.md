@@ -40,7 +40,13 @@ The programs outputs four plots using Plotly (for [**CODESPACE**](https://github
 
 
 
+We use equation 3 from Merlino 2007 to find ion density **ni** since we have fitted the ion saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
 
+![Equation 3 - Merlino 2007](.\images\Merlino2007-Eq3.png)
+
+We use equation 6 from Merlino 2007 to to to find electron density **ne** since we have fitted the electron saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
+
+![Equation 6 - Merlino 2007](.\images\Merlino2007-Eq6.png)
 
 
 
