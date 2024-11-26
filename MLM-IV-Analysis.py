@@ -12,7 +12,7 @@ me = 9.11e-31  # Electron mass in kg
 mi = 1.67e-27  # Ion mass (assumed proton) in kg
 
 # Load the data
-data = np.load('LMSIMData\\20241126-001559-LangmuirSIM_eV2_averaged_noisy.npy')
+data = np.load('LMSIMData\\20241126-112819-LangmuirSIM_eV2_theory.npy')
 voltage = data[0]
 current = data[1]
 

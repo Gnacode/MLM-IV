@@ -10,7 +10,7 @@ m_e = 9.109e-31  # Electron mass in kg
 A_probe = 1.41372e-5  # Probe area in m^2
 
 # Load the data
-file_path = 'LMSIMData\\20241103-235547-LangmuirSIM_eV2_averaged_noisy.npy'
+file_path = 'LMSIMData\\20241126-112819-LangmuirSIM_eV2_theory.npy'
 data = np.load(file_path, allow_pickle=True)
 voltage = data[0]
 current = data[1]
