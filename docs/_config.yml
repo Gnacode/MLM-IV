@@ -2,5 +2,20 @@ title: MLM-IV Documentation
 show_downloads: true
 theme: jekyll-theme-modernist
 markdown: kramdown
+
+# Adding Jekyll plugins
 plugins:
   - jekyll-mathjax
+  - jekyll-relative-links
+
+# Jekyll-relative-links configuration
+relative_links:
+  enabled: true
+
+# Base URL settings for GitHub Pages
+# Update these values if your repository/project name changes
+baseurl: "/MLM-IV"  # The base URL of your project, set it to "" if the project is served from the root
+url: "https://gnacode.github.io"
+
+kramdown:
+  input: GFM

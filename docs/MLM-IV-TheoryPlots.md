@@ -1,3 +1,10 @@
+---
+​---
+title: MLM IV Theory Plots
+permalink: /MLM-IV/MLM-TheoryPlots/
+​---
+---
+
 # MLM-IV-THEORYPLOTS
 
 MLM-IV-Theory Plots, generates the theoretical plot by Merlino 2007, and overlays experimental artifacts as leakage current for ions and electrons, and a capacitive rounding of the "knee". We use the functions (3) and (6) from the Merlino 2007 paper. Merlino RL has made a Maple program doing the same, this here is an easier accessible Python version using Plotly as plotting engine, all based on open-source code and libraries and without any cost of use. 
