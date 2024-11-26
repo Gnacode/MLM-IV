@@ -16,11 +16,11 @@ The MLM-TheoryPlots generates one plot:
 
 In the plot below the gaussian noise has been increased
 
-![MLM-IV-SimPlot](.\images\MLM-IV-SimPlot2.png)
+![MLM-IV-SimPlot2](.\images\MLM-IV-SimPlot2.png)
 
 In the plot below the gaussian noise is the same as in the plot above but the number of sampled points per bias voltage have been reduced from 10 to 2.
 
-![MLM-IV-SimPlot](.\images\MLM-IV-SimPlot3.png)
+![MLM-IV-SimPlot3](.\images\MLM-IV-SimPlot3.png)
 
 The parameter section of the script makes it very easy to modify the settings:
 
