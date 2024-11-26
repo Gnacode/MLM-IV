@@ -15,11 +15,24 @@ MLM-IV-Analysis, loads a NPY data file from MLM-IV-SimPlot and performs followin
 The analysis provides four sub-plots:
 
 1. IV Curve
-2. Derivative of IV Curve, and peak finding for estimation of the plasma potential \(V_{p}\), $$V_{p}$$
+
+   
+
+2. Derivative of IV Curve, and peak finding for estimation of the plasma potential **Vp**
+
+   
+
 3. Ion Saturation Fit, where we fit a linear curve to the ion saturation current
+
+   
+
 4. Subtraction of the Ion Saturation Current from the IV curve, and plotting the resulting data transformed by Ln(y), and fit the electron retardation zone and the electron saturation zone. The slope of the electron retardation zone gives the electron temperature Te, in eV, the crossing point between the two fits is the plasma potential  Vp which in most cases is a better estimated value compared to the value achieved by the peak of the derivative of the IV curve.
 
+   
+
 Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analysis with Fits and Intersections
+
+[**Open Image**](#)   <a href="images/MLM-IV-Analysis.png" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
 
 ![MLM-IV-Analysis output plot](.\images\MLM-IV-Analysis.png)
 
