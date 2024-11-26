@@ -36,10 +36,6 @@ Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analys
 
 ![MLM-IV-Analysis output plot](.\images\MLM-IV-Analysis.png)
 
-The programs outputs four plots using Plotly (for [**CODESPACE**](https://github.com/features/codespaces) use for pair programming [**Plotly**](https://plotly.com/) does not work that well and we therefore also provide a version using [**Dash by Plotly**](https://dash.plotly.com/) which is confirmed working with [**LiveShare using VSCODE and GITHUB CODESPACE**](Liveshare.md))
-
-
-
 We use equation 3 from Merlino 2007 to find ion density **ni** since we have fitted the ion saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
 
 ![Equation 3 - Merlino 2007](.\images\Merlino2007-Eq3.png)
@@ -47,6 +43,8 @@ We use equation 3 from Merlino 2007 to find ion density **ni** since we have fit
 We use equation 6 from Merlino 2007 to to to find electron density **ne** since we have fitted the electron saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
 
 ![Equation 6 - Merlino 2007](.\images\Merlino2007-Eq6.png)
+
+<p align="center">   <img src="./images/Merlino2007-Eq6.png" alt="Equation 6 - Merlino 2007"> </p>
 
 
 
