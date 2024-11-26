@@ -49,7 +49,7 @@ Notes about calculation (example calculation in preparation, key is to use **Te*
 The debug output gives following
 
 ```python
-Estimated Electron Temperature (Te)	= 1.89 eV
+Estimated Electron Temperature (Te) = 1.89 eV
 Estimated Plasma Potential (Vp) = 4.46 V (derivative peak)
 Estimated Plasma Potential (Vp) = 5.42 V (line crossing)
 Estimated Electron Saturation Current (Ie_sat)	= 2.30e-03 A
