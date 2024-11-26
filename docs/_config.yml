@@ -1,6 +1,6 @@
 title: MLM-IV Documentation
 show_downloads: true
-theme: jekyll-theme-minima
+theme: jekyll-theme-slate
 markdown: kramdown
 
 # Adding Jekyll plugins
