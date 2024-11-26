@@ -40,8 +40,8 @@ slope_ion = 0.5e-5      # Slope for ion current leakage below Vp
 slope_electron = 0.2e-4 # Slope for electron current leakage above Vp
 
 # Noise parameters for simulated data
-num_samples = 10  # Number of noisy samples to generate
-noise_amplitude = 0.00008  # Amplitude of Gaussian noise
+num_samples = 2  # Number of noisy samples to generate
+noise_amplitude = 0.00018  # Amplitude of Gaussian noise
 
 # Setting the Langmuir IV curve voltage range
 V_range = np.linspace(V_min, V_max, V_points)
