@@ -3,8 +3,10 @@
 title: Live Share
 permalink: /MLM-IV/MLM-IV-Analysis/
 ​---
-{% include mathjax.html %}
+
 ---
+
+{% include mathjax.html %}
 
 # MLM-IV-ANALYSIS
 
