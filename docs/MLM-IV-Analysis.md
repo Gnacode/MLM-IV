@@ -38,15 +38,32 @@ Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analys
 
 We use equation 3 from Merlino 2007 to find ion density **ni** since we have fitted the ion saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
 
-![Equation 3 - Merlino 2007](.\images\Merlino2007-Eq3.png)
+<p align="center">   <img src="./images/Merlino2007-Eq3.png" alt="Equation 6 - Merlino 2007"> </p>
 
 We use equation 6 from Merlino 2007 to to to find electron density **ne** since we have fitted the electron saturation current, and since we can find **Te** from the LN(I) transformation from the slope of the line in electron retardation zone. 
 
-![Equation 6 - Merlino 2007](.\images\Merlino2007-Eq6.png)
-
 <p align="center">   <img src="./images/Merlino2007-Eq6.png" alt="Equation 6 - Merlino 2007"> </p>
 
+Notes about calculation (example calculation in preparation, key is to use **Te** in Kelvin and not in eV)
 
+The debug output gives following
+
+```python
+Estimated Electron Temperature (Te)	= 1.89 eV
+Estimated Plasma Potential (Vp) = 4.46 V (derivative peak)
+Estimated Plasma Potential (Vp) = 5.42 V (line crossing)
+Estimated Electron Saturation Current (Ie_sat)	= 2.30e-03 A
+Estimated Ion Saturation Current (Ii_sat) = -9.31e-05 A
+Estimated Electron Density (ne) = 8.83e+15 m^-3 (calculated using thermal velocity)
+Estimated Ion Density (ni) = 1.02e+16 m^-3
+
+Original simulation values was:
+Te = 2.0 eV
+ne = 1E16 m-3
+ni = 1E16 m-3
+Vp = 5.68 (theoretical curve)
+
+```
 
 
 
