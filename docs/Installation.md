@@ -88,3 +88,18 @@ redhat.vscode-yaml
 14. You run a script by loading it by clicking on it in the explorer window, and then click on ► buttton marked below by the red circle. The program will load the output in a browser window so watch out for that, and the calculations will be output in the terminal window.
 
 ![VSCODE](.\images\gVSCODE7.png)
+
+
+
+
+
+**Notes**: The MLM-IV-SimPlot generates data files that you have to copy manually into the MLM-IV-Analysis and MLM-IV-EEDF-Analysis programs. 
+
+Please be aware of the path syntax, see below:
+
+```
+data = np.load('LMSIMData\\20241126-001559-LangmuirSIM_eV2_averaged_noisy.npy')
+```
+
+Notice the double \\\ which are required for the file to be read from the data directory correctly.
+
