@@ -14,7 +14,7 @@ The MLM-TheoryPlots generates one plot:
 1.  Simulated IV curves of a number of different electron temperatures (point plot) including the capacitive effect on measured current, and added leakage currents for both ions and electrons, hereto the data are sampled using a gaussian noise function to create a realistic experimental data set - the theoretical curve by Merlino 2007 is shown as a solid line.
 2. Data files with the average current for each curve are saved in the NPY data format, that can be read by MLM-IV-Analysis, and MLM-IV-EEDF-Analysis and which is compatible with PlasmaPy (its the same data format), and therefore data generated can also be analyzed by PlasmaPy for comparison.
 
-![First plot](.\images\SimPlot.png)
+![First plot](.\images\MLM-IV-TheoryPlot.png)
 
 In the plot below the gaussian noise has been increased
 
