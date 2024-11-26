@@ -26,12 +26,65 @@ git clone https://github.com/Gnacode/MLM-IV.git
 
 7.  Open VSCODE and click on the directory icon
 
-![VSCODE](.\images\VSCODE1.png)
+![VSCODE](.\images\aVSCODE1.png)
 
 8.  Click on the "Open Folder" button
 
-   ![VSCODE](.\images\VSCODE2.png)
+![VSCODE](.\images\bVSCODE2.png)
 
 9. when you open the folder where you cloned the repository it shold look like below
 
-   ![VSCODE](.\images\VSCODE3.png)
+![VSCODE](.\images\cVSCODE3.png)
+
+10. Install extensions for python
+
+![VSCODE](.\images\dVSCODE4.png)
+
+10.  Below is a list of useful extensions
+
+```
+bierner.github-markdown-preview
+bierner.markdown-preview-github-styles
+bierner.markdown-yaml-preamble
+donjayamanne.githistory
+eamodio.gitlens
+github.codespaces
+github.copilot
+github.copilot-chat
+github.remotehub
+github.vscode-github-actions
+github.vscode-pull-request-github
+letmaik.git-tree-compare
+mhutchie.git-graph
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-vscode.powershell
+ms-vsliveshare.vsliveshare
+redhat.vscode-yaml
+```
+
+12. Open one of the Python scripts, and chose which python.exe to use and create an environment (.venv) and chose to install them from the requirements.txt file.
+
+    1. This is done by first pressing keys CTRL+SHIFT+P which brings up the window where you type ">Python: Create" and which finds the option menu "Python: Create Environment", chose that and 
+    2. when it asks if you want to use the "Requirements.txt" chose that. 
+    3. chose the default Python interpreter
+    4. Now your environment is created
+
+    
+
+    ![VSCODE](.\images\eVSCODE5.png)
+
+    
+
+    
+
+    13. when this is done you should see **"Python 3.11.5  ('.venv':venv)"** in your bottom right side of the VSCODE interface as marked by red below. You can now run the MLM-IV-Programs.
+
+        
+
+![VSCODE](.\images\fVSCODE6.png)
+
+14. You run a script by loading it by clicking on it in the explorer window, and then click on ► buttton marked below by the red circle. The program will load the output in a browser window so watch out for that, and the calculations will be output in the terminal window.
+
+![VSCODE](.\images\gVSCODE7.png)
