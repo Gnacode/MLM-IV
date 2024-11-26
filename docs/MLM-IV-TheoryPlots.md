@@ -27,10 +27,12 @@ The MLM-TheoryPlots generates four sub-plots:
 
 ![MLM-IV-TheoryPlot](.\images\MLM-IV-TheoryPlot.png)
 
-We use equation 3 from Merlino 2007 to 
+We use equation 3 and 6 from Merlino 2007 to generate theoretical plots. The MLM-IV-TheoryPlot is a translations of Merlino RL's Maple program to Python and with added features for showing capacitive artifacts and leakage currents, and compile a realistic experimental data set from the theoretical curves with added capacitance and leakage current. 
+
+**Equation 3 from Merlino 2007**:
 
 ![Equation 3 - Merlino 2007](.\images\Merlino2007-Eq3.png)
 
-We use equation 6 from Merlino 2007 to 
+**Equation 6 from Merlino 2007**:
 
 ![Equation 6 - Merlino 2007](.\images\Merlino2007-Eq6.png)
