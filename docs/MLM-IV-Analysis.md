@@ -32,7 +32,7 @@ The analysis provides four sub-plots:
 
 Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analysis with Fits and Intersections
 
-[**Open Image**](#)   <a href="images/MLM-IV-Analysis.png" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
+ <a href="images/MLM-IV-Analysis.png" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
 
 ![MLM-IV-Analysis output plot](.\images\MLM-IV-Analysis.png)
 
