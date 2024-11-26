@@ -6,7 +6,7 @@ permalink: /MLM-IV/MLM-IV-Analysis/
 
 ---
 
-{% include mathjax.html %}
+<script type="text/javascript">   document.addEventListener("DOMContentLoaded", function() {     MathJax.Hub.Config({       tex2jax: {         inlineMath: [['$', '$'], ['\\(', '\\)']],         displayMath: [['$$', '$$'], ["\\[", "\\]"]],         processEscapes: true       }     });     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);   }); </script>
 
 # MLM-IV-ANALYSIS
 
@@ -37,7 +37,7 @@ The programs outputs four plots using Plotly (for [**CODESPACE**](https://github
 
 
 
-
+<script type="text/javascript">   document.addEventListener("DOMContentLoaded", function() {     MathJax.Hub.Config({       tex2jax: {         inlineMath: [['$', '$'], ['\\(', '\\)']],         displayMath: [['$$', '$$'], ["\\[", "\\]"]],         processEscapes: true       }     });     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);   }); </script>
 
 
 
