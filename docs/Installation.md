@@ -24,6 +24,14 @@ Installation guide if you are using VSCODE
 git clone https://github.com/Gnacode/MLM-IV.git
 ```
 
-7.  Open VSCODE 
+7.  Open VSCODE and click on the directory icon
 
-![VSCODE]()
+![VSCODE](.\images\VSCODE1.png)
+
+8.  Click on the "Open Folder" button
+
+   ![VSCODE](.\images\VSCODE2.png)
+
+9. when you open the folder where you cloned the repository it shold look like below
+
+   ![VSCODE](.\images\VSCODE3.png)
