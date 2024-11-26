@@ -5,7 +5,6 @@ markdown: kramdown
 
 # Adding Jekyll plugins
 plugins:
-  - jekyll-mathjax
   - jekyll-relative-links
 
 # Jekyll-relative-links configuration
@@ -20,6 +19,4 @@ url: "https://gnacode.github.io"
 kramdown:
   input: GFM
 
-mathjax:
-  # Optional: MathJax configurations for rendering
-  config: "TeX-MML-AM_CHTML"
+
