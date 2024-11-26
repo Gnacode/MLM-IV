@@ -6,8 +6,6 @@ permalink: /MLM-IV/MLM-IV-Analysis/
 
 ---
 
-<script type="text/javascript">   document.addEventListener("DOMContentLoaded", function() {     MathJax.Hub.Config({       tex2jax: {         inlineMath: [['$', '$'], ['\\(', '\\)']],         displayMath: [['$$', '$$'], ["\\[", "\\]"]],         processEscapes: true       }     });     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);   }); </script>
-
 # MLM-IV-ANALYSIS
 
 [**INDEX**](index.md)
@@ -19,13 +17,7 @@ The analysis provides four sub-plots:
 1. IV Curve
 2. Derivative of IV Curve, and peak finding for estimation of the plasma potential \(V_{p}\), $$V_{p}$$
 3. Ion Saturation Fit, where we fit a linear curve to the ion saturation current
-4. Subtraction of the Ion Saturation Current from the IV curve, and plotting the resulting data transformed by Ln(y), and fit the electron retardation zone and the electron saturation zone. The slope of the electron retardation zone gives the electron temperature $T_{e}$, in eV, the crossing point between the two fits is the plasma potential  $V_{p}$ which in most cases is a better estimated value compared to the value achieved by the peak of the derivative of the IV curve.
-
-$$
-T_{e}\underbrace{
-\overbrace{a+b}^6 \cdot \overbrace{c+d}^7
-}_\text{example of text} = 42
-$$
+4. Subtraction of the Ion Saturation Current from the IV curve, and plotting the resulting data transformed by Ln(y), and fit the electron retardation zone and the electron saturation zone. The slope of the electron retardation zone gives the electron temperature Te, in eV, the crossing point between the two fits is the plasma potential  Vp which in most cases is a better estimated value compared to the value achieved by the peak of the derivative of the IV curve.
 
 Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analysis with Fits and Intersections
 
@@ -33,11 +25,11 @@ Output plot by [**MLM-IV-ANALYSIS**](MLM-IV-Analysis.md) : Langmuir Probe Analys
 
 The programs outputs four plots using Plotly (for [**CODESPACE**](https://github.com/features/codespaces) use for pair programming [**Plotly**](https://plotly.com/) does not work that well and we therefore also provide a version using [**Dash by Plotly**](https://dash.plotly.com/) which is confirmed working with [**LiveShare using VSCODE and GITHUB CODESPACE**](Liveshare.md))
 
-4. 
 
 
 
-<script type="text/javascript">   document.addEventListener("DOMContentLoaded", function() {     MathJax.Hub.Config({       tex2jax: {         inlineMath: [['$', '$'], ['\\(', '\\)']],         displayMath: [['$$', '$$'], ["\\[", "\\]"]],         processEscapes: true       }     });     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);   }); </script>
+
+
 
 
 
