@@ -18,8 +18,9 @@ me = 9.11e-31  # Electron mass in kg
 mi = 1.67e-27  # Ion mass (assumed proton) in kg
 
 # Experimental parameters
-ProbeDia = 3e-3  # Probe diameter in m
-Aprobe = np.pi * (ProbeDia / 2) ** 2  # Probe area in m^2
+ProbeDia = 2.5e-3  # Probe diameter in m
+ProbeLength = 0.000275  # Probe length in m (added length parameter)
+Aprobe = (2 * np.pi * (ProbeDia / 2) * ProbeLength) + (np.pi * (ProbeDia / 2) ** 2)  # Probe area including cylindrical surface and end area in m^2
 ne = 1e16  # Electron density in m^-3
 ni = 1e16  # Ion density in m^-3
 

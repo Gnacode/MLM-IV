@@ -99,7 +99,10 @@ Te = abs(-1 / retardation_fit_params[0])  # Electron temperature in eV
 Te_K = max(Te * 11600, 1e-10)  # Ensure Te_K is positive and non-zero  # Convert electron temperature to Kelvin
 Ie_sat = np.exp(intersection_current)  # Electron saturation current
 
-Aprobe = np.pi * (3e-3 / 2) ** 2  # Probe area in m^2
+ProbeDia = 2.5e-3  # Probe diameter in m
+ProbeLength = 0.000275  # Probe length in m (added length parameter)
+Aprobe = (2 * np.pi * (ProbeDia / 2) * ProbeLength) + (np.pi * (ProbeDia / 2) ** 2)  # Probe area including cylindrical surface and end area in m^2
+
 ve_th = np.sqrt(8 * kb * Te_K / (np.pi * me))  # Thermal velocity of electrons
 ne = Ie_sat / (0.25 * e * ve_th * Aprobe)  # Electron density
 
