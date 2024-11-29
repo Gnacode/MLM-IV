@@ -19,6 +19,8 @@ electron energy ( = qe (Vp - Vprobe), Vprobe is the probe voltage and Ie is the 
 
 The extracted EEDF, fe(ε) is seen below
 
+ <a href="images/MLM-IV-EEDF-Analysis.png" onclick="window.open(this.href, 'popup', 'width=600,height=600'); return false;">Open image</a>
+
 ![MLM-IV-Analysis output plot](.\images\MLM-IV-EEDF-Analysis.png)
 
 The electron density and effective electron temperature can then be found by taking moments of the distribution function.
