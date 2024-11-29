@@ -29,7 +29,7 @@ We have four programs for use in simulation and analysis of Langmuir IV Probes b
 
 4. [**MLM-IV-EEDF-Analysis**](MLM-IV-EEDF-Analysis.md), here we use the Druyvesteyn method as an alternative method to find the electron density ne, and the electron temperature Te, and it gives a better estimate compared to the methods in MLM-IV-Analysis 
 
-
+5. [**MLM-IV-NDF-to-Excel**](MLM-IV-NDF-to-Excel.md), an NDF to Excel conversion script, it will take all NDF files in the "LMSIMData" directory and create a subdirectory called 'output' where it will store the Excel files with V in the first column, and A in the second column. 
 
 (N.B. **MLM** stands for "Merlino Langmuir" referring to the 2007 Am.J.Physics paper)
 
