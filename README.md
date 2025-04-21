@@ -11,6 +11,9 @@ Hereto, we also publish our most interesting application in scientific journals 
 
 - [@ltatgnacode](https://www.github.com/ltatgnacode)
 
+![3D preview of Top Lid](
+  <https://github.com/Gnacode/quad-pcr-mechanics-metal/blob/f38e388c1c595c2e1ea5010804e073761f135cfa/0A00Q%20TOPL%20Top%20Lid/0A00Q%20TOPL%20Top%20Lid%20v7.glb.glb>
+)
 
 MLM-IV-Theory Plots, generates the theoretial plot by Merlino 2007, and overlays experimental artifacts as leakage current for ions and electrons, and a capacitive rounding of the "knee". We use the functions (3) and (6) from the Merlino 2007 paper. Merlino RL has made a Maple program doing the same, this here is an easier accessible Python version using Plotly as plotting engine. 
 ![Logo](https://github.com/Gnacode/MLM-IV/blob/main/MLM-IV-TheoreticPlot.png?raw=true)
